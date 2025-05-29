@@ -1,0 +1,18 @@
+Package: DataMiner
+Title: Basic Data Analysis Package
+Version: 0.1.1
+Authors@R: person("Your", "Name", email = "your@email.com", role = c("aut", "cre"))
+Description: A simple package for data analysis and visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: 
+    graphics,
+    stats,
+    grDevices
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
